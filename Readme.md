@@ -1,0 +1,1 @@
+# Configuraciones básicas de archlinux
