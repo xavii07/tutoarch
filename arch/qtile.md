@@ -21,7 +21,7 @@ keywords: Qtile, instalación, configuración
 
 ## Instalar Qtile y paquetes necesarios
 
-- `sudo pacman -S qtile xterm code brave-bin rofi which nitrogen`
+- `sudo pacman -S qtile xterm rofi which nitrogen`
 - `sudo pacman -S ttf-dejavu ttf-liberation noto-fonts`
 - `sudo pacman -S pulseaudio pavucontrol pamixer`
 - `sudo pacman -S arandr udiskie ntfs-3g network-manager-applet`

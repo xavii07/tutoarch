@@ -40,6 +40,10 @@ Crear el boot con el programa rufus.
   - Ver el archivo de configuración `cat /etc/configWIFI`
   - Conectar a wifi `wpa_supplicant -B -i wlan0 -D wext -c /etc/configWIFI`
 
+### Conexión que me funciono
+
+- `iwctl --passphrase 123456 station wlan0 connect "ALFA-GASPATA"`
+
 ## Particiones
 
 ### UEFI
