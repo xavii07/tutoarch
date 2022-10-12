@@ -161,6 +161,11 @@ keywords: Qtile, instalación, configuración
     makepkg -sci BUILDDIR=.
 ```
 
+## Instalar una fuente
+
+- Descomprimir el archivo descargado en `.local/share/fonts`
+- `fc-cache -f`
+
 ## Instalar picom
 
 - `yay -S picom-git`
@@ -185,3 +190,16 @@ Podemos instalar temas desde estos repositorios
 ## Descomprimir archivos .tar
 
 - `tar -xf archivo.tar`
+
+## Actualizar hora
+
+- `sudo pacman -S ntp`
+- `su`
+- `ntpd -qg`
+- `hwclock --w`
+
+## Instalar visual studio code
+
+- `git clone https://AUR.archlinux.org/visual-studio-code-bin.git` Clonar repositorio en descargas
+- ` cd visual-studio-code-bin/`
+- `makepkg -si`
