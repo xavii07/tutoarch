@@ -39,6 +39,7 @@ Crear el boot con el programa rufus.
   - `wpa_passphrase CNT_GAS 12345 > /etc/configWIFI`
   - Ver el archivo de configuración `cat /etc/configWIFI`
   - Conectar a wifi `wpa_supplicant -B -i wlan0 -D wext -c /etc/configWIFI`
+  - dhclient
 
 ### Conexión que me funciono
 
